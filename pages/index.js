@@ -19,37 +19,41 @@ const agencySelectionProps = {
   video: {
     src: "/img/video.png",
     alt: "",
-    width: 1000,
-    height: 1680,
+    width: 326,
+    height: 520,
   },
-  carts: [
+  cards: [
     {
-      cartOne: {
-        title: "Brief",
-        description:
-          "Complete brief writing or simply guidance on what to include, we've got you covered",
-        src: "/img/cartPictureOne.png",
+      title: "Brief",
+      description:
+        "Complete brief writing or simply guidance on what to include, we've got you covered",
+      image: {
+        src: "/img/cardPictureOne.png",
         alt: "",
-        width: 20,
-        height: 20,
+        width: 100,
+        height: 100,
       },
-      cartTwo: {
-        title: "Search",
-        description:
-          "In-depth agency search covering; criteria matching, door knocking and due-dilligence vetting",
-        src: "/img/cartPictureTwo.png",
+    },
+    {
+      title: "Search",
+      description:
+        "In-depth agency search covering; criteria matching, door knocking and due-dilligence vetting",
+      image: {
+        src: "/img/cardPictureTwo.png",
         alt: "",
-        width: 20,
-        height: 20,
+        width: 100,
+        height: 100,
       },
-      cartThree: {
-        title: "Pitch",
-        description:
-          "Comprehensive pitch management, including comms, diary management and pitch hosting",
-        src: "/img/cartPictureOne.png",
+    },
+    {
+      title: "Pitch",
+      description:
+        "Comprehensive pitch management, including comms, diary management and pitch hosting",
+      image: {
+        src: "/img/cardPictureOne.png",
         alt: "",
-        width: 20,
-        height: 20,
+        width: 100,
+        height: 100,
       },
     },
   ],
