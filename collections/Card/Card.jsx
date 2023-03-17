@@ -4,7 +4,7 @@ import {
   StyledPicture,
   StyledTitleDescription,
 } from "./elements";
-export const Card = ({ title, description, image }) => {
+export const Card = ({ title, description, image, underline }) => {
   return (
     <StyledContainer>
       <StyledPicture>
@@ -15,7 +15,7 @@ export const Card = ({ title, description, image }) => {
           height={image.height}
         />
       </StyledPicture>
-      <StyledTitleDescription>
+      <StyledTitleDescription underline={underline}>
         <h2>{title}</h2>
         <p>{description}</p>
       </StyledTitleDescription>
