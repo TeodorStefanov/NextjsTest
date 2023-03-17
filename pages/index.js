@@ -13,8 +13,8 @@ const agencySelectionProps = {
   backGroundPicture: {
     src: "/img/background.png",
     alt: "",
-    width: 1000,
-    height: 1680,
+    width:800,
+    height: 520,
   },
   video: {
     src: "/img/video.png",
@@ -50,11 +50,12 @@ const agencySelectionProps = {
       description:
         "Comprehensive pitch management, including comms, diary management and pitch hosting",
       image: {
-        src: "/img/cardPictureOne.png",
+        src: "/img/cardPictureThree.png",
         alt: "",
         width: 100,
         height: 100,
       },
+      underline: 'true',
     },
   ],
 };

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Card } from "../../collections/Card/";
 import {
   Container,
+  StyledTitleContainer,
   StyledTitle,
   StyledSubTitle,
   StyledMiddle,
@@ -18,8 +19,10 @@ export const AgencySelection = ({
 }) => {
   return (
     <Container {...props}>
-      <StyledTitle>{title}</StyledTitle>
-      <StyledSubTitle>{subTitle}</StyledSubTitle>
+      <StyledTitleContainer>
+        <StyledTitle>{title}</StyledTitle>
+        <StyledSubTitle>{subTitle}</StyledSubTitle>
+      </StyledTitleContainer>
       <StyledMiddle>
         <StyledVideo>
           <Image src={video} />
@@ -32,6 +35,7 @@ export const AgencySelection = ({
                 title={el.title}
                 description={el.description}
                 image={el.image}
+                underline={el.underline}
               />
             );
           })}
