@@ -7,6 +7,7 @@ import {
   StyledSubTitle,
   StyledMiddle,
   StyledVideo,
+  StyledBackgroundVideo,
   StyledCards,
 } from "./element";
 export const AgencySelection = ({
@@ -25,6 +26,9 @@ export const AgencySelection = ({
       </StyledTitleContainer>
       <StyledMiddle>
         <StyledVideo>
+          <StyledBackgroundVideo>
+            <Image src={backGroundPicture} />
+          </StyledBackgroundVideo>
           <Image src={video} />
         </StyledVideo>
         <StyledCards>

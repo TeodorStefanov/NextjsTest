@@ -13,7 +13,7 @@ const agencySelectionProps = {
   backGroundPicture: {
     src: "/img/background.png",
     alt: "",
-    width:800,
+    width: 326,
     height: 520,
   },
   video: {
@@ -26,7 +26,7 @@ const agencySelectionProps = {
     {
       title: "Brief",
       description:
-        "Complete brief writing or simply guidance on what to include, we've got you covered",
+        "Complete <b> brief writing or simply guidance</b> on what to include, we've got you covered",
       image: {
         src: "/img/cardPictureOne.png",
         alt: "",
@@ -55,7 +55,7 @@ const agencySelectionProps = {
         width: 100,
         height: 100,
       },
-      underline: 'true',
+      underline: "true",
     },
   ],
 };
