@@ -4,11 +4,11 @@ import {
   SectionBigHeading,
   SectionSubheading,
 } from "~/components";
-export const Container = styled(({ ...props }) => (<SectionContainer {...props} />))`
+export const Container = styled(({ height, ...props }) => (<SectionContainer {...props} />))`
   align-items: center;
   flex-direction: column;
-  background-image: url('img/background.png');
-  background-size: cover;
+  width: 100%;
+  height: auto;
   margin-top: 2rem;
 `;
 export const StyledTitleContainer = styled(({...props}) => <div {...props}/>)`
@@ -38,12 +38,22 @@ export const StyledMiddle = styled(({ ...props }) => <div {...props} />)`
   gap: 40px;
 
 `;
-export const StyledVideo = styled(({ ...props }) => <div {...props} />)`
+export const StyledVideo = styled((props) => <div {...props}/>)`
   display: flex;
-  width: 50%;
+  flex-direction: row; 
+  position: relative;
+  width: 60%;
+  height: 100%;
   align-items: center;
   justify-content: center;
-`;
+
+`
+export const StyledBackgroundVideo = styled(({...props}) => <div {...props}/>)`
+position: absolute;
+top: 20px;
+left: -200px;
+z-index: -1;
+`
 export const StyledCards = styled(({ ...props }) => <div {...props} />)`
   display: flex;
   justify-content: center;
