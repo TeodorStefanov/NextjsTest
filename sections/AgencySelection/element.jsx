@@ -16,17 +16,19 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+
 width: 100%;
 color: black;
+margin-bottom: 50px;
 
 `
 export const StyledTitle = styled(({...props}) => <SectionBigHeading {...props} />)`
-  font-size: 1.8rem;
-  margin: 0;
-  line-height: 1.8rem;
+  font-size: 2.5rem;
+  margin: 8px;
+  line-height: 2rem;
 `;
 export const StyledSubTitle = styled(({...props}) => (<SectionSubheading {...props} />))`
-  font-size: 1rem;
+  font-size: 1.22rem;
   margin: 0;
 `;
 export const StyledMiddle = styled(({ ...props }) => <div {...props} />)`
@@ -35,7 +37,7 @@ export const StyledMiddle = styled(({ ...props }) => <div {...props} />)`
   align-items: center;
   margin: 0 5rem;
   margin-bottom: 5rem;
-  gap: 40px;
+  gap: 68px;
 
 `;
 export const StyledVideo = styled((props) => <div {...props}/>)`

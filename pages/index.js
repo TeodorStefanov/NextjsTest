@@ -26,34 +26,34 @@ const agencySelectionProps = {
     {
       title: "Brief",
       description:
-        "Complete <b> brief writing or simply guidance</b> on what to include, we've got you covered",
+        "Complete <b>brief writing or simply guidance</b> on what to include, we've got you covered.",
       image: {
         src: "/img/cardPictureOne.png",
         alt: "",
-        width: 100,
-        height: 100,
+        width: 80,
+        height: 80,
       },
     },
     {
       title: "Search",
       description:
-        "In-depth agency search covering; criteria matching, door knocking and due-dilligence vetting",
+        "In-depth agency search covering; <b>criteria matching,</b> door knocking and due-dilligence vetting.",
       image: {
         src: "/img/cardPictureTwo.png",
         alt: "",
-        width: 100,
-        height: 100,
+        width: 80,
+        height: 80,
       },
     },
     {
       title: "Pitch",
       description:
-        "Comprehensive pitch management, including comms, diary management and pitch hosting",
+        "Comprehensive <b>pitch management,</b> including comms, diary management and pitch hosting.",
       image: {
         src: "/img/cardPictureThree.png",
         alt: "",
-        width: 100,
-        height: 100,
+        width: 80,
+        height: 80,
       },
       underline: "true",
     },
