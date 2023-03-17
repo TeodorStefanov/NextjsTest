@@ -6,21 +6,24 @@ export const StyledContainer = styled(({ ...props }) => <div {...props} />)`
   background-color: #f9f9f9;
   width: 450px;
   height: 140px;
-  border-radius: 20px;
+  border-radius: 10px;
+  font-size: 16px;
   text-align: center;
   align-items: center;
   &:nth-child(2) {
+    
     width: 477px;
     background-color: #f4f4f4;
   }
   &:nth-child(3) {
+    
     width: 506px;
     background-color: #f1f1f1;
     border: solid 3px #0872fd;
   }
 `;
 export const StyledPicture = styled(({ ...props }) => <div {...props} />)`
-  width: 37%;
+  width: 150px;
   text-align: center;
   align-items: center;
 `;
@@ -30,7 +33,7 @@ export const StyledTitleDescription = styled(({ ...props }) => (
   font-family: Poppins;
   width: 63%;
   text-align: left;
-  margin-right: 48px;
+  padding-right: 48px;
 
   h2 {
     margin: 0;
