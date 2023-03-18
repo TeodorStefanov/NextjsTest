@@ -11,16 +11,15 @@ export const StyledContainer = styled(({ ...props }) => <div {...props} />)`
   text-align: center;
   align-items: center;
   &:nth-child(2) {
-    
     width: 477px;
     background-color: #f4f4f4;
   }
   &:nth-child(3) {
-    
     width: 506px;
     background-color: #f1f1f1;
     border: solid 3px #0872fd;
   }
+  
 `;
 export const StyledPicture = styled(({ ...props }) => <div {...props} />)`
   width: 150px;
