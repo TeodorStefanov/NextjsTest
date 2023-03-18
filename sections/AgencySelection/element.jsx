@@ -16,7 +16,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
 width: 100%;
 color: black;
 margin-bottom: 50px;
@@ -38,14 +37,15 @@ export const StyledMiddle = styled(({ ...props }) => <div {...props} />)`
   margin: 0 5rem;
   margin-bottom: 5rem;
   gap: 68px;
+  @media (max-width: 1024px) { 
+   flex-direction: column;
+  }
 
 `;
 export const StyledVideo = styled((props) => <div {...props}/>)`
   display: flex;
   flex-direction: row; 
-  position: relative;
-  width: 60%;
-  height: 100%;
+  position: relative; 
   align-items: center;
   justify-content: center;
 
